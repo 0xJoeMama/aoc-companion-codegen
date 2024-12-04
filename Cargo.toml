@@ -1,0 +1,16 @@
+[package]
+name = "aoc-companion-codegen"
+version = "0.1.2"
+edition = "2021"
+description = "Codegen module for the aoc-companion crate"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+aoc-companion = "0.1.0"
+quote = "1.0.22"
+syn = "2.0.18"
